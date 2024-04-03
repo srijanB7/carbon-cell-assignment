@@ -1,0 +1,42 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name {
+    color: #a9d95b;
+}
+.tradingBtn {
+    background-color: #29b429;
+    border: none;
+    color: #fff;
+    padding: 0.8rem;
+    cursor: pointer;
+}
+
+.lineContainer {
+    max-width: 500px;
+}
+
+.doughnutContainer {
+    max-width: 300px;
+}
+
+.newsContainer {
+    max-width: 300px;
+}
+
+.mainContent {
+    padding-top: 40px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 1206px) {
+    .mainContent {
+        flex-direction: column;
+        align-items: center;
+    }
+}

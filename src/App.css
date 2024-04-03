@@ -1,0 +1,28 @@
+.page {
+    display: flex;
+}
+
+.right {
+    flex: 1;
+    padding: 20px;
+    margin-left: 250px;
+}
+
+.sidebar-btn {
+    display: none;
+}
+
+@media (max-width: 576px) {
+    .page {
+        flex-direction: column;
+    }
+    .left {
+        height: fit-content;
+    }
+    .right {
+        margin-left: 0;
+    }
+    .sidebar-btn {
+        display: block;
+    }
+}
